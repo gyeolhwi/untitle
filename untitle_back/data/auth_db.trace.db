@@ -1,0 +1,52 @@
+2024-08-22 01:49:08 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "TRUNCATE TABLE 'USER'[*]"; expected "identifier"; SQL statement:
+TRUNCATE TABLE 'USER' [42001-200]
+2024-08-22 01:49:10 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "TRUNCATE TABLE 'USER'[*]"; expected "identifier"; SQL statement:
+TRUNCATE TABLE 'USER' [42001-200]
+2024-08-22 01:49:11 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "TRUNCATE TABLE 'USER'[*]"; expected "identifier"; SQL statement:
+TRUNCATE TABLE 'USER' [42001-200]
+2024-08-22 01:49:12 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "TRUNCATE TABLE 'USER'[*]"; expected "identifier"; SQL statement:
+TRUNCATE TABLE 'USER' [42001-200]
+2024-08-22 01:49:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "TRUNCATE TABLE 'USER'[*]"; expected "identifier"; SQL statement:
+TRUNCATE TABLE 'USER' [42001-200]
+2024-08-22 01:49:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "TRUNCATE TABLE 'USER'[*]"; expected "identifier"; SQL statement:
+TRUNCATE TABLE 'USER' [42001-200]
+2024-08-22 01:49:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "TRUNCATE TABLE 'USER'[*]"; expected "identifier"; SQL statement:
+TRUNCATE TABLE 'USER' [42001-200]
+2024-08-22 01:49:20 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "TRUNCATE TABLE 'USER'[*]"; expected "identifier"; SQL statement:
+TRUNCATE TABLE 'USER' [42001-200]
+2024-08-22 01:49:55 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "TRUNCATE TABLE {USER}[*]" [42000-200]
+2024-08-22 01:50:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "TRUNCATE TABLE {USER}
+USER[*]" [42000-200]
+2024-08-22 01:50:13 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "TRUNCATE TABLE  USER 
+SELECT[*] * FROM USER"; SQL statement:
+TRUNCATE TABLE  USER 
+select * from user [42000-200]
+2024-08-22 01:50:14 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "TRUNCATE TABLE  USER 
+SELECT[*] * FROM USER"; SQL statement:
+TRUNCATE TABLE  USER 
+select * from user [42000-200]
+2024-08-22 01:50:15 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "TRUNCATE TABLE  USER 
+SELECT[*] * FROM USER"; SQL statement:
+TRUNCATE TABLE  USER 
+select * from user [42000-200]
+2024-08-22 01:50:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "TRUNCATE TABLE {USER}[*]" [42000-200]
+2024-08-22 01:50:42 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "TRUNCATETABLE[*] USER"; expected "TRUNCATE"; SQL statement:
+TRUNCATETABLE USER [42001-200]
+2024-08-22 01:51:36 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "TRU[*]"; expected "TRUNCATE"; SQL statement:
+TRU [42001-200]

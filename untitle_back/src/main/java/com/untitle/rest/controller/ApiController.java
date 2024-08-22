@@ -1,5 +1,6 @@
 package com.untitle.rest.controller;
 
+import com.untitle.rest.aspect.Log;
 import com.untitle.rest.dto.Dto;
 import com.untitle.rest.service.TestService;
 import lombok.extern.slf4j.Slf4j;
@@ -15,18 +16,20 @@ public class ApiController {
     @Autowired
     private TestService service;
 
+    @Log
     @PostMapping("/signup")
     public ResponseEntity<?> add(@RequestBody Dto.ReqDto dto) {
-        log.info("{}", dto);
         return ResponseEntity.ok(service.signup(dto));
     }
+    @Log
     @PostMapping("/signsample")
     public ResponseEntity<?> addSample() {
         return ResponseEntity.ok(service.signup());
     }
+
+    @Log
     @GetMapping("/user")
     public ResponseEntity<?> getAll() {
-        System.out.println("호출");
         return ResponseEntity.ok(service.getAllList());
     }
     @GetMapping("/user/{id}")
